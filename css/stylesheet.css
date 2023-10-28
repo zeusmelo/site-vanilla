@@ -1,0 +1,106 @@
+.img01 {
+    opacity: 0.9;
+
+}
+
+.img01:hover {
+    opacity: 0.5;
+}
+
+.botao:hover {
+    opacity: 0.5;
+}
+
+ul {
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+li a:hover,
+.dropdown:hover,
+.dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 100%;
+}
+
+.dropdown-content {
+    color: black;
+    display: block;
+    text-align: left;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.gradient {
+    width: 50%;
+    height: auto;
+    background-image: linear-gradient(to right, blue, red);
+    box-shadow: 5px 5px 10px palevioletred;
+
+}
+
+h1{
+    text-shadow: 1px 1px 3px rgb(49, 49, 250), 2px 2px firebrick;
+    
+}
+
+.reduzido{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.reduzido:hover{
+    white-space: normal;
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Seu CSS para computadores de largura igual ou superior a 1024px aqui */
+    body{
+        background-color: aquamarine;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Seu CSS para tablets de largura entre 768px e 1023px aqui */
+    body{
+        background-image: linear-gradient(rgba(5, 9, 70, 0.562),aquamarine);
+    }
+  }
+  
+@media only screen and (max-width: 767px) {
+    /* Seu CSS para celulares de largura igual ou inferior a 767px aqui */
+    body{
+        background-color: rgba(5, 9, 70, 0.562);
+    }
+    
+  }

@@ -1,0 +1,26 @@
+.flex-container{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: end;
+    flex-grow: 1;
+    flex: auto;
+}
+
+.flex-container div{
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .flex-container{
+        flex-direction: row;
+    }
+}
+
